@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="WPNonceCodingStandard">
+
+	<description>WPNonce coding standard.</description>
+
+	<file>./src/</file>
+
+	<config name="text_domain" value="WP-Nounce"/>
+
+	<rule ref="Inpsyde"/>
+
+</ruleset>

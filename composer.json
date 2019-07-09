@@ -1,0 +1,36 @@
+{
+    "name": "kevalthacker/wp-nonce",
+    "description": "This package is use to exntend wordress nounce functionality using oop manner.",
+  "type":         "package",
+  "keywords":     [
+    "wordpress",
+    "nonce",
+    "wordpress nonce",
+    "security"
+  ],	
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "kevalthacker",
+            "email": "kevalthacker@gmail.com",
+			"role":  "Developer"
+        }
+    ],
+    "require": {
+      "php": ">=7.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "*",
+	  "inpsyde/php-coding-standards": "^0.13"
+   },
+   "autoload": {
+      "psr-4": {
+        "Wordpress\\Nonces\\": "src/"
+      }
+   },
+  "autoload-dev": {
+    "psr-4": {
+      "Wordpress\\Nonces\\Tests\\": "tests/src/"
+    }
+  }
+}
