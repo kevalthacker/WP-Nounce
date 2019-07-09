@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# wp-nonce
-=======
 # WPNonce
->>>>>>> 6d970457fa71abaf4880663faac7a0d9878b8deb
-Package that implements the WordPress Nonces functionality in an object orientated paradigm.
-
 ## Requirements
 
 - PHP 7.0+
